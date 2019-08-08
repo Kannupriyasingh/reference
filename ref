@@ -1,0 +1,15 @@
+int ref_const(const int &x)
+{
+    return(x+1);
+}
+
+int main()
+
+{
+    int a=10,b;
+    b= ref_const(a);
+    cout<<"a="<<a<<" and "
+    <<"b="<<b;
+    return 0;
+}
+
